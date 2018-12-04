@@ -1,7 +1,7 @@
 e = 10 + 2
 a = 2.22
 FOR i IN e {
-	IF i > a{
+	IF i > a {
 		i = i + 2
 		IF FALSE {
 			i = 1

@@ -227,6 +227,7 @@ def analizadorSintatico(fita, regras, parser, cFonte):
 			elif parser[topP][topF][0] == 'a': # Aceita o codigo fonte
 				break
 		else:
+			printSaida(pilha, fita, ['ERRO', ''])
 			print('Erro na linha ' + str(fita[0][1]) + ':\n\t' + cFonte[fita[0][1] - 1])
 			break
 
